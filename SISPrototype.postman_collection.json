@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "7e2751fc-bf57-41fa-b970-e454253af6b8",
+		"name": "SISPrototype",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "127.0.0.1:3000/test",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "10",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:3000/test",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:3000/test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:3000/test",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:3000/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:3000/",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:4000/openWindows",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\": \"Windows\", \"suggestion\": \"Open Windows\", \"reason\": \"Temperature too high\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:4000/openWindows",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4000",
+					"path": [
+						"openWindows"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:4000",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:4000",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:4000/openWindows1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:4000/openWindows1",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4000",
+					"path": [
+						"openWindows1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
